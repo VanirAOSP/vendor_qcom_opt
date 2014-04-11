@@ -32,4 +32,4 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := libqc-opt.so
 
 include $(BUILD_SHARED_LIBRARY)
-#endif
+endif
