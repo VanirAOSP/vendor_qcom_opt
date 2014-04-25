@@ -1,4 +1,4 @@
-ifeq ($(BOARD_USES_LIBQC_OPT),true)
+ifeq ($(WITH_QC_PERF),true)
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
