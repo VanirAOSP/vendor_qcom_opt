@@ -1,4 +1,4 @@
-ifeq ($(WITH_QC_PERF),true)
+ifeq ($(TARGET_HAVE_QC_PERF),true)
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
